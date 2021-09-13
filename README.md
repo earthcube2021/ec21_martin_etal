@@ -1,6 +1,8 @@
 
 [![binder](https://mybinder.org/badge_logo.svg)](https://binder.pangeo.io/v2/gh/pangeo-gallery/default-binder/master?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fearthcube2021%252Fec21_martin_etal%26urlpath%3Dlab%252Ftree%252Fec21_martin_etal%252FPM_01_Frequency-Domain_Analysis_of_Large_Datasets.ipynb%26branch%3Dmain)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5496266.svg)](https://doi.org/10.5281/zenodo.5496266)
+
 ## Frequency-domain analysis of large datasets
 Climate model datasets are typically stored as global snapshots, i.e. chunked in time rather than space. For many workflows, this chunking works well (e.g. computations across spatial domains at every point in time). However, this storage format can create serious challenges for processing long time series at each point in space, as is the case for frequency-domain analysis. For large datasets with frequent (e.g. daily) output, it is not feasible to process each spatial point as a single time series, even with the help of distributed computing such as Dask.
 
